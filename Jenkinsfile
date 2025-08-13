@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'docker-hub-reg'
-        IMAGE_NAME = '3booda24/jenkins-nodejs:latest'
+        IMAGE_NAME = 'ahmed277/jenkins-nodejs:latest'
     }
 
     stages {
